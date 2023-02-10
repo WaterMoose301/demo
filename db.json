@@ -1,14 +1,12 @@
+// Vibrate 9 seconds with 2nd strength
+// Rotate toys 9 seconds with 3rd strength
+// Pump all toys 9 seconds with 4th strength
+// For all toys , it will run 9 seconds than suspend 4 seconds. it will be loop. The total running time is 20 seconds
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "command": "Function",
+    "action": "Vibrate:2",
+    "timeSec": 20,
+    "loopRunningSec": 9,
+    "loopPauseSec": 4,
+    "apiVer": 1
 }
